@@ -12,8 +12,8 @@ const Header = () => {
         </div>
 
         {
-          toggle ? <AiOutlineClose className='text-white text-2xl md:hidden block' onClick={()=>setToggle(!toggle)} /> : 
-          <AiOutlineMenu className='text-white text-2xl md:hidden block' onClick={()=>setToggle(!toggle)} />
+          toggle ? <AiOutlineClose className='text-white text-2xl md:hidden block cursor-pointer' onClick={()=>setToggle(!toggle)} /> : 
+          <AiOutlineMenu className='text-white text-2xl md:hidden block cursor-pointer' onClick={()=>setToggle(!toggle)} />
         }
        
 
