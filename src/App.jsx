@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutCompany from './components/AboutCompany'
 import Banner from './components/Banner'
 import Experts from './components/Experts'
 import Header from './components/Header'
@@ -11,8 +12,9 @@ const App = () => {
       <Header />
       <Banner />
       <Experts />
-      <NewsLetter />
       <Plans />
+      <AboutCompany />
+      <NewsLetter />
     </div>
   )
 }
