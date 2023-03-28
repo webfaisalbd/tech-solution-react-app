@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    screen: {
+      miniScreen: '350px'
+    },
   },
   plugins: [],
 }
